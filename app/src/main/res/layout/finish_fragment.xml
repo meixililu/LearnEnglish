@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="7dp" >
+
+        <LinearLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/green_dark"
+            android:padding="5dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/share_content"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/none"
+                android:gravity="center"
+                android:paddingTop="35dp"
+                android:paddingBottom="35dp"
+                android:maxEms="15"
+                android:shadowColor="@color/white"
+                android:shadowDx="0.1"
+                android:shadowDy="0.1"
+                android:shadowRadius="0.1"
+                android:textColor="@color/white"
+                android:text="@string/practice_congratulation"
+                android:textSize="@dimen/big"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.gc.materialdesign.views.ButtonRectangle 
+		        android:id="@+id/share_btn_cover"
+		        android:layout_width="fill_parent"
+		        android:layout_height="52dp"
+		        android:gravity="center"
+		    	android:text="@string/share"
+		    	android:textColor="@color/white"
+		        android:textSize="@dimen/bigest"
+		        android:background="@color/green"
+		        android:layout_marginLeft="@dimen/padding_5"
+		        android:layout_marginRight="@dimen/padding_5"
+		        materialdesign:rippleSpeed="90"
+		        />
+    <com.gc.materialdesign.views.ButtonRectangle 
+		        android:id="@+id/check_btn"
+		        android:layout_width="fill_parent"
+		        android:layout_height="52dp"
+		        android:gravity="center"
+		    	android:text="@string/practice_finish"
+		    	android:textColor="@color/white"
+		        android:textSize="@dimen/bigest"
+		        android:background="@color/green"
+		        android:layout_marginLeft="@dimen/padding_5"
+		        android:layout_marginRight="@dimen/padding_5"
+		        materialdesign:rippleSpeed="90"
+		        />
+    
+</LinearLayout>

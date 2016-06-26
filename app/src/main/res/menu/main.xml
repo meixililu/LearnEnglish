@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_collected"
+        android:orderInCategory="100"
+        android:title="@string/title_favorite"
+        android:icon="@drawable/ic_grade_white_24dp"
+        app:showAsAction="always"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_more"
+        android:orderInCategory="100"
+        android:title="@string/title_more"
+        android:icon="@drawable/ic_ab_overflow_compat"
+        app:showAsAction="always"
+        android:showAsAction="always"
+        />
+
+</menu>

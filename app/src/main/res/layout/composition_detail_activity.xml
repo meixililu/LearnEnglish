@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize" >
+
+        <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+            android:id="@+id/progressBarCircularIndetermininate"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="right"
+            android:background="@color/white"
+            android:visibility="gone" />
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    	android:background="@color/white"
+        >
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    		android:background="@color/white"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+    			android:background="@color/white"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorPrimary"
+                    android:paddingBottom="@dimen/padding_20"
+                    android:paddingLeft="@dimen/padding_20"
+                    android:paddingRight="@dimen/padding_20"
+                    android:paddingTop="@dimen/padding_5"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title" />
+
+                <com.messi.learnenglish.views.ProportionalImageView
+                    android:id="@+id/item_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_10"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="1.5dp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:padding="@dimen/padding_10"
+                    android:paddingBottom="@dimen/padding_15"
+    				android:background="@color/white"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/biggerx" />
+
+                <RelativeLayout
+                    android:id="@+id/xx_ad_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_15"
+                    android:layout_marginBottom="@dimen/padding_15"
+                    android:layout_marginLeft="@dimen/padding_10"
+                    android:layout_marginRight="@dimen/padding_10"
+                    android:visibility="gone" >
+
+                    <com.messi.learnenglish.views.WrapContentHeightViewPager
+                        android:id="@+id/auto_view_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:id="@+id/viewpager_dot_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="bottom|right"
+                        android:orientation="horizontal"
+                        android:padding="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="3dp"
+                        android:text="推广"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/middle" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/next_composition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+    				android:background="@color/white"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical" >
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_play_arrow_white_48dp"
+                app:backgroundTint="@color/load_blue"
+                app:elevation="4dp"
+                app:pressedTranslationZ="8dp"
+                app:rippleColor="#33728dff" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

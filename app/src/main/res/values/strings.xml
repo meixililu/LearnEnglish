@@ -1,0 +1,238 @@
+<resources>
+
+    <string name="app_name">英语君</string>
+    <string name="app_des">告别说不出口的英语</string>
+    <string name="app_ad">学英语，你值得拥有！</string>
+    <string name="author">作者：黎潞</string>
+    <string name="designer">设计：李茜霞</string>
+    <string name="title_about">关于我们</string>
+    <string name="title_share_preview">分享预览</string>
+    <string name="title_Practice">基础修炼</string>
+    <string name="title_listening">每日必听</string>
+    <string name="title_word_vocabulary">每日词汇</string>
+    <string name="title_spoken_english_study">口语学习</string>
+    <string name="title_symbol">音标学习</string>
+    <string name="title_word_study">单词学习</string>
+    <string name="title_english_jokes">双语笑话</string>
+    <string name="title_english_story">英语故事</string>
+    <string name="title_juhe">综合频道</string>
+    <string name="title_help">使用帮助</string>
+    <string name="title_tool">百宝箱</string>
+    <string name="title_more">更多</string>
+    <string name="title_translate">翻译</string>
+    <string name="title_dictionary">词典</string>
+    <string name="title_study">学习</string>
+    <string name="title_leisure">休闲</string>
+    <string name="title_instagram">图片分享社区</string>
+    <string name="title_cailing">酷炫彩铃</string>
+    <string name="title_reading">阅读基地</string>
+    <string name="title_website">不错的学习网站</string>
+    <string name="title_favorite">我的收藏</string>
+    <string name="title_hotel">订酒店</string>
+    <string name="title_dialog_select">选择场景</string>
+    <string name="title_settings">应用设置</string>
+    <string name="title_comments">吐槽评价</string>
+    <string name="title_apps">发现APP</string>
+    <string name="title_duanzi">段子</string>
+    <string name="title_duanzi_word">文字</string>
+    <string name="title_duanzi_img">图片</string>
+    <string name="title_composition">英语作文</string>
+    <string name="evaluation_prompt">关于口语评测</string>
+    <string name="word_study_detail_menu">听选</string>
+    <string name="offline_download">下载Mp3</string>
+    <string name="background_color">背景颜色</string>
+    <string name="font_color">字体颜色</string>
+    <string name="font_size">字体大小</string>
+    <string name="font_style">字体样式</string>
+    <string name="font_style_left">居左</string>
+    <string name="font_style_right">居右</string>
+    <string name="font_style_center">居中</string>
+    <string name="font_style_bold">粗体</string>
+    <string name="font_style_italic">斜体</string>
+    
+    <string name="menu_share">DIY分享</string>
+    <string name="menu_settings">语速调节</string>
+    <string name="app_name_share">App:中英互译</string>
+    <string name="share_text_hint">请输入分享内容</string>
+    <string name="input_et_hint_dictionary">请输入中文或英文单词、词组</string>
+    <string name="input_et_hint">请输入需要翻译的中文或英文</string>
+    <string name="input_translate_hint">请翻译</string>
+    <string name="auto_play_after_translate">翻译完成后自动播放</string>
+    <string name="auto_clear_after_translate">翻译完成后自动清空输入框内容</string>
+    <string name="auto_clear">每次退出应用自动清除非收藏记录</string>
+    <string name="translate">翻 译</string>
+    <string name="finish">完毕</string>
+    <string name="exit_program">再按一次退出应用</string>
+    <string name="auto_play_after_read">跟读完成自动播放下一句</string>
+    <string name="loadmore">正在加载...</string>
+    
+    <string name="share_dialog_text_1">文字</string>
+    <string name="share_dialog_text_2">图片（推荐）</string>
+    <string name="take_photo">拍照翻译</string>
+    <string name="photo_album">相册选图</string>
+    
+    <string name="speak_english">请点击话筒说英语</string>
+    <string name="speak_chinese">请点击话筒说普通话</string>
+    <string name="network_error">网络错误，请稍后重试</string>
+    <string name="no_result">没有查询到结果</string>
+    
+    <string name="app_id">50aa1213</string>
+    <string name="preference_default_iat_engine_en">sms-en</string>
+    <string name="preference_key_iat_rate">iat_rate</string>
+    <string name="preference_title_iat_rate">录音采样率</string>
+    <string name="preference_default_iat_rate">rate16k</string>
+    
+    <string name="preference_key_iat_engine">iat_engine</string>
+    <string name="preference_default_iat_engine">iat</string>
+    
+    <string name="preference_key_recognizer">recognizer</string>
+    <string name="preference_default_recognizer">zh_cn</string>
+    
+    <string name="preference_key_accent">accent</string>
+    <string name="preference_default_accent">mandarin</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    
+    <string name="play_speed_text">播放语速调节：</string>
+    <string name="fifth_normal">50为正常速度</string>
+    <string name="i_speak_cantonese">我说粤语</string>
+    <string name="clear_all_except_favorite">清除收藏之外的所有记录</string>
+    <string name="clear_all_record">清除所有记录</string>
+    <string name="invite_friends">还不错，告诉小伙伴</string>
+    <string name="invite_friends_qrcode">二维码  扫一扫</string>
+    <string name="clear_success">清除成功</string>
+    
+    <string name="preference_key_tts_music">tts_music</string>
+    <string name="preference_title_tts_music">背景音乐</string>
+    <string name="preference_default_tts_music">0</string>
+    <string name="preference_dialog_title_tts_music">选择背景音乐</string>
+    <string name="tts_toast_format" formatted="false">当前合成进度为%d%%，播放进度为%d%%</string>
+    <string name="click_and_speak">点击说话</string>
+    <string name="dele_success">删除成功</string>
+    <string name="copy_success">复制成功</string>
+    <string name="copy">复制</string>
+    <string name="share">分享</string>
+    <string name="share_buddy">分享给小伙伴</string>
+    <string name="wechat_long_click">微信长按有惊喜</string>
+    <string name="favorite_success">收藏成功</string>
+    <string name="favorite_cancle">取消收藏</string>
+    
+    <string name="click_where_unknow">哪里不会点哪里：</string>
+    <string name="close">关闭</string>
+    <string name="your_turn">到你啦</string>
+    
+    <string name="errcode_success">发送成功</string>
+	<string name="errcode_cancel">发送取消</string>
+	<string name="errcode_deny">发送被拒绝</string>
+	<string name="errcode_unknown">发送返回</string>
+	<string name="chinese">普通话</string>
+	<string name="english">英语</string>
+	<string name="collect">收藏</string>
+	<string name="wechat">微信</string>
+	<string name="speak">说</string>
+	<string name="speak_prompt">请根据您说的语言点击中文或者英文！</string>
+	<string name="webview_reload">加载失败，轻触屏幕刷新!</string>
+	
+	<string name="menu_translate">中英互译</string>
+	<string name="menu_speak">口语练习</string>
+	<string name="menu_about">关于</string>
+	<string name="recent_use_footer_prompt">温馨提示</string>
+	<string name="recent_use_footer_prompt_content">\t此处只保存100条最近翻译记录，常用的请收藏。目前的翻译结果都不可能百分百准确，
+	    谢谢您的理解，我们会不断改进软件，为您提供更多更好的服务。</string>
+	    
+	<string name="textclickguidedialog_title">温馨提示</string>
+	<string name="textclickguidedialog_content">直接点击翻译内容或结果即可播放语音;语音播放速度可在应用设置里调节。</string>
+	
+	<string name="about_play_title">关于语音播报</string>
+	<string name="about_play_content">点击文字即可播放相应的内容，点击喇叭默认播放翻译的结果。</string>
+	
+	<string name="about_speed_title">关于语音朗读速度</string>
+	<string name="about_speed_content">可以在应用设置里面调节语音播放的速度。</string>
+	
+	<string name="about_volume_title">关于音量</string>
+	<string name="about_volume_content">直接通过手机音量键来调节大小。</string>
+	<string name="practice_prompt_english">点击Start跟读英文</string>
+	<string name="practice_prompt_chinese">点击Start跟读中文</string>
+	<string name="cailing_ad_prompt">三块钱你买不了吃亏，买不了上当，只需三块钱，就能让电话另一头的TA拥有一次美好而有爱的等待，而不是平凡并且枯燥的嘟。。。嘟。。。嘟。。。还等什么呢，赶紧操作起来，为TA设置一段好玩又有新意的铃声吧! http://api.openspeech.cn/kyls/NTBhYTEyMTM=</string>
+	<string name="yuedu_ad_prompt">专注随身阅读30年! http://api.openspeech.cn/cmread/NTBhYTEyMTM=</string>
+	<string name="hotel_ad_prompt">专注开房30年! http://api.openspeech.cn/trip/NTBhYTEyMTM=</string>
+	<string name="invite_friends_prompt">哎呦，这个软件不错哦，小伙伴快来！ http://a.app.qq.com/o/simple.jsp?pkgname=com.messi.learnenglish</string>
+	<string name="invest_list_prompt">小伙伴快到碗里来，这个软件是我投资的！ http://lilu168.sinaapp.com/list.html</string>
+	
+	<string name="dailysentence">每日一句</string>
+	<string name="symbolStudy">48个音标快速学</string>
+	<string name="spoken_english_reading">口语修炼</string>
+	<string name="spoken_english_practice">口语练习</string>
+	<string name="reading">多看多读</string>
+	<string name="examination">英语考题</string>
+	<string name="simulation_dialogue">模拟对话</string>
+	<string name="introduction">基础词汇</string>
+	<string name="primary_lever">第二部分</string>
+	<string name="intermediate_lever">第三部分</string>
+	<string name="fighting">致所有用户</string>
+	<string name="sorry">很抱歉，我们的速度不够快</string>
+	<string name="detail">详情</string>
+	<string name="detail_total">总分</string>
+	<string name="download">试一试</string>
+	
+	<string name="foreign_website">学习网站</string>
+	<string name="foreign_website_subtitle">喜欢进步的看这里</string>
+	<string name="leisuer_one">酷炫彩铃</string>
+	<string name="leisuer_one_subtitle">听听音乐放松一下</string>
+	<string name="leisuer_reading">阅读基地</string>
+	<string name="leisuer_reading_subtitle">看看小说放松一下</string>
+	<string name="leisuer_hotel">订酒店</string>
+	<string name="leisuer_hotel_subtitle">房还是要开的</string>
+	<string name="leisuer_invest">投资人列表</string>
+	<string name="leisuer_invest_subtitle">提意见就是对软件投资</string>
+	
+	<string name="website_attention">提示：国外网站的打开速度稍微慢点</string>
+	<string name="leisuer_game">轻游戏中心</string>
+	<string name="leisuer_game_subtitle">大家都爱玩的小游戏</string>
+	<string name="leisuer_news">轻松一刻</string>
+	<string name="leisuer_news_subtitle">累了就到这里放松一下</string>
+	<string name="leisuer_duanzi">笑话段子</string>
+	<string name="leisuer_duanzi_subtitle">各种笑话和段子</string>
+	
+	<string name="leisuer_two">发现APP</string>
+	<string name="leisuer_two_subtitle">你知道哪些app最多人用吗</string>
+	
+	<string name="invest_activity_title">投资人列表</string>
+	<string name="feedback">反馈</string>
+	<string name="practice_finish">完成</string>
+	<string name="practice_next">下一个</string>
+	<string name="practice_next_level">下一关</string>
+	<string name="practice_check">检查</string>
+	<string name="practice_start">开始</string>
+	<string name="practice_spoken_englist_style_studyevery">科普</string>
+	<string name="practice_spoken_englist_style_fourinone">四选一</string>
+	<string name="practice_spoken_englist_style_readafterme">跟我读</string>
+	<string name="practice_spoken_englist_style_write">书写考验</string>
+	<string name="practice_spoken_englist_style_speakafterme">跟我说</string>
+	<string name="practice_spoken_englist_finish">闯关成功</string>
+	<string name="translate_content">翻译此句子</string>
+	<string name="practice_dialog_listen">听</string>
+	<string name="practice_dialog_readafterme">跟读</string>
+	<string name="practice_dialog_rolea">角色 A</string>
+	<string name="practice_dialog_roleb">角色 B</string>
+	
+	<string name="practice_congratulation">太棒了，闯关完成!\n\n妈妈再也不用担心我的学习了！</string>
+	
+	<string name="getfans_1">别人花钱学英语，咱们学英语还赚钱，就这么科学！</string>
+	<string name="getfans_3">软件已有四百多万用户，每天十多万用户在这里翻译学习，有一部分是国外用户，将来大家可以在这里交朋友相互学习；
+	    软件大家的，我只是帮助大家实现各种想法，帮助大家包括我自己提高英语水平，所以有话就要说，不管好坏，告诉作者，憋着对身体不好；
+	    诚邀请大家做软件的投资人，别害怕，不是金钱，是你的想法，你希望软件能帮你做什么，你可以做我们的产品经理，投资人，跟我们一起成长，把你的名字通过邮件发给我，
+	    就会出现在软件投资人列表里，到时你就可以自豪的说这个软件是你参与设计的，你是投资人！</string>
+	<string name="getfans_4">点击发送意见：meixililulu@163.com</string>
+	<string name="click_ad_prompt">如果你喜欢这个软件，喜欢在这里学习，想要支持开发者的话，目前最好的方式就是帮忙点广告，不需要每天多少次，
+	    只要你用的时候想起来了，偶尔点几次，提示下载的可以取消下载。众志成城点广告，撑起一个免费学习英语的平台。</string>
+	    
+	<string name="getcontent_1">开发中，敬请期待！</string>
+	<string name="getcontent_2">帮助开发者，请猛戳！</string>
+	
+	<string name="learn_english">学英语\n重在坚持</string>
+	
+	<string name="follow_teacher">外教跟读</string>
+	<string name="server_error">服务器错误，请稍后重试！</string>
+	
+	
+</resources>
